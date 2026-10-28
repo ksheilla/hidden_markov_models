@@ -34,7 +34,6 @@ results /                        # test results
 README.md
 ```
 
-[Add the report file name here, for example `report.pdf`, if you include it.]
 
 ## Figures
 
@@ -44,6 +43,9 @@ README.md
 - `test_signals.png`: unseen test signals with ground-truth switch times
 - `confusion_matrix.png`: confusion matrix on unseen data
 - `decoded_sequences.png`: true vs predicted activity sequences
+- `baum_welch_random_start.png`: Baum-Welch trained from random starts
+- `emission_distributions.png`: emission variances and the per-state Gaussian curves
+- `feature_correlation.png`: feature correlation heatmaps.
 
 ## How to run
 
@@ -63,10 +65,10 @@ The ground-truth timing of the two test files is set in the `truth` cell of the 
 
 Video of me recording each activity (entire body visible):
 
-- Standing: [link]
-- Walking: [link]
-- Jumping: [link]
-- Still: [link]
+- Standing: [https://drive.google.com/file/d/1ep6RIaAOFD3f62iygUcijJtRNDvKsE2x/view?usp=sharing]
+- Walking: [https://drive.google.com/file/d/1NJ0rY7o2TXn0zaos3Hu_XmaOVahJ5swd/view?usp=sharing]
+- Jumping: [https://drive.google.com/file/d/1shgXW9Pv72CdDWxt8oIoO4OlOnLkxuDC/view?usp=sharing]
+- Still: [https://drive.google.com/file/d/11tlvLaXDFtw7eDR2G-OZgUtqw11qXWBk/view?usp=sharing]
 
 ## Limitations
 
