@@ -2,6 +2,15 @@
 
 An individual project that infers human activity (standing, walking, jumping, still) from smartphone accelerometer and gyroscope data, using a Hidden Markov Model built from scratch with NumPy.
 
+## Demo videos
+
+Video of me recording each activity (entire body visible):
+
+- Standing: [https://drive.google.com/file/d/1ep6RIaAOFD3f62iygUcijJtRNDvKsE2x/view?usp=sharing]
+- Walking: [https://drive.google.com/file/d/1NJ0rY7o2TXn0zaos3Hu_XmaOVahJ5swd/view?usp=sharing]
+- Jumping: [https://drive.google.com/file/d/1shgXW9Pv72CdDWxt8oIoO4OlOnLkxuDC/view?usp=sharing]
+- Still: [https://drive.google.com/file/d/11tlvLaXDFtw7eDR2G-OZgUtqw11qXWBk/view?usp=sharing]
+
 ## Overview
 
 - **Data:** my own recordings made with the Sensor Logger app (accelerometer and gyroscope, x/y/z).
@@ -60,15 +69,6 @@ The notebook was written for Google Colab with data in Google Drive.
 **Requirements:** Python 3, numpy, pandas, scipy, matplotlib (all preinstalled in Colab).
 
 The ground-truth timing of the two test files is set in the `truth` cell of the notebook.
-
-## Demo videos
-
-Video of me recording each activity (entire body visible):
-
-- Standing: [https://drive.google.com/file/d/1ep6RIaAOFD3f62iygUcijJtRNDvKsE2x/view?usp=sharing]
-- Walking: [https://drive.google.com/file/d/1NJ0rY7o2TXn0zaos3Hu_XmaOVahJ5swd/view?usp=sharing]
-- Jumping: [https://drive.google.com/file/d/1shgXW9Pv72CdDWxt8oIoO4OlOnLkxuDC/view?usp=sharing]
-- Still: [https://drive.google.com/file/d/11tlvLaXDFtw7eDR2G-OZgUtqw11qXWBk/view?usp=sharing]
 
 ## Limitations
 
